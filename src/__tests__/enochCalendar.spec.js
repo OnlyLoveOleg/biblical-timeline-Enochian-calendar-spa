@@ -5,11 +5,13 @@ import {
   DAYS_PER_YEAR,
   formatDate,
   formatHistoricalYear,
+  formatJubilee,
   formatSpan,
   fromDay,
   monthLength,
   toDay,
   toHistoricalYear,
+  toJubileeCount,
 } from '@/lib/enochCalendar'
 
 describe('Enochian calendar cycles', () => {
@@ -100,5 +102,27 @@ describe('formatting', () => {
     expect(formatSpan(364)).toBe('1 year')
     expect(formatSpan(374)).toBe('1 year 10 days')
     expect(formatSpan(130 * 364)).toBe('130 years')
+  })
+})
+
+describe('Jubilees cycle (jubilee / week / year)', () => {
+  it('starts year 1 at jubilee 1, week 1, year 1', () => {
+    expect(toJubileeCount(1)).toEqual({ jubilee: 1, week: 1, year: 1 })
+  })
+
+  it('rolls week over every 7 years and jubilee over every 49 years', () => {
+    expect(toJubileeCount(7)).toEqual({ jubilee: 1, week: 1, year: 7 })
+    expect(toJubileeCount(8)).toEqual({ jubilee: 1, week: 2, year: 1 })
+    expect(toJubileeCount(49)).toEqual({ jubilee: 1, week: 7, year: 7 })
+    expect(toJubileeCount(50)).toEqual({ jubilee: 2, week: 1, year: 1 })
+  })
+
+  it('matches Jubilees 11:14, which dates Abram’s birth (Anno Mundi 1876) to the 7th year of the 2nd week of the 39th jubilee', () => {
+    expect(toJubileeCount(1876)).toEqual({ jubilee: 39, week: 2, year: 7 })
+    expect(formatJubilee(1876)).toBe('Jubilee 39, week 2, year 7')
+  })
+
+  it('rejects a year below 1', () => {
+    expect(() => toJubileeCount(0)).toThrow(RangeError)
   })
 })

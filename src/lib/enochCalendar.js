@@ -128,3 +128,29 @@ export function formatHistoricalYear(annoMundiYear) {
   const { era, year } = toHistoricalYear(annoMundiYear)
   return era === 'BC' ? `${formatCount(year)} BC` : `AD ${formatCount(year)}`
 }
+
+export const YEARS_PER_WEEK = 7
+export const WEEKS_PER_JUBILEE = 7
+export const YEARS_PER_JUBILEE = YEARS_PER_WEEK * WEEKS_PER_JUBILEE // 49
+
+// The Book of Jubilees counts history in its own units of jubilees (49 years), weeks of
+// years (7 years) and years, all reckoned from creation (Anno Mundi year 1). Jubilees 11:14
+// dates Abram's birth to "the seventh year of this week", in Anno Mundi 1876 — the 39th
+// jubilee, 2nd week, 7th year on this same reckoning.
+export function toJubileeCount(annoMundiYear) {
+  if (!Number.isInteger(annoMundiYear) || annoMundiYear < 1) {
+    throw new RangeError(`Year must be an integer of 1 or more, got ${annoMundiYear}`)
+  }
+  const yearInJubilee = ((annoMundiYear - 1) % YEARS_PER_JUBILEE) + 1
+  return {
+    jubilee: Math.floor((annoMundiYear - 1) / YEARS_PER_JUBILEE) + 1,
+    week: Math.floor((yearInJubilee - 1) / YEARS_PER_WEEK) + 1,
+    year: ((yearInJubilee - 1) % YEARS_PER_WEEK) + 1,
+  }
+}
+
+// "Jubilee 44, week 6, year 2"
+export function formatJubilee(annoMundiYear) {
+  const { jubilee, week, year } = toJubileeCount(annoMundiYear)
+  return `Jubilee ${formatCount(jubilee)}, week ${week}, year ${year}`
+}

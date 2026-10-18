@@ -31,8 +31,8 @@
   },
   {
     "date": 6,
-    "title": "Animals and humankind",
-    "summary": "Land animals are made, then humankind in God’s image, male and female. Genesis 2 adds that the man is formed from the dust and the woman from his side.",
+    "title": "Animals and man",
+    "summary": "Land animals are made, then man in God’s image, male and female. Genesis 2 adds that the man is formed from the dust and the woman from his side.",
     "source": "Genesis 1:24–31; 2:7, 18–25"
   },
   {
@@ -60,9 +60,15 @@
     "source": "Genesis 4:25; 5:3"
   },
   {
+    "date": 71345,
+    "title": "Cain builds the city of Enoch",
+    "summary": "Cain names a city after his son Enoch — the same city Genesis 4:17 mentions in passing, with no date. The Book of Jubilees places it in the opening year of the fifth jubilee since creation.",
+    "source": "Jubilees 4:9; Genesis 4:17"
+  },
+  {
     "date": 211121,
     "title": "The Watchers descend to Mount Hermon",
-    "summary": "In the days of Jared, two hundred Watchers led by Semjaza descend on Mount Hermon and swear a mutual oath to take wives from among human women. 1 Enoch gives no year for this, only Jared’s long lifetime; Genesis 6:1–4 recounts the same union of the “sons of God” and human daughters.",
+    "summary": "In the days of Jared, two hundred Watchers led by Semjaza descend on Mount Hermon and swear a mutual oath to take wives from among the daughters of men. 1 Enoch gives no year for this, only Jared’s long lifetime; Genesis 6:1–4 recounts the same union of the “sons of God” and the daughters of men.",
     "source": "1 Enoch 6:1–8; Genesis 6:1–4"
   },
   {
@@ -74,7 +80,7 @@
   {
     "date": 218401,
     "title": "The giants turn violent",
-    "summary": "The Watchers’ sons grow into giants so large that they exhaust humanity’s food, then turn on people and animals alike, eating flesh and drinking blood. The earth itself cries out against the lawlessness spreading across it.",
+    "summary": "The Watchers’ sons grow into giants so large that they exhaust men’s food, then turn on men and animals alike, eating flesh and drinking blood. The earth itself cries out against the lawlessness spreading across it.",
     "source": "1 Enoch 7:3–6"
   },
   {
@@ -132,6 +138,12 @@
     "source": "Genesis 5:5"
   },
   {
+    "date": 338522,
+    "title": "Cain is crushed by his own collapsing house",
+    "summary": "In the same year Adam dies, Cain’s own house collapses on him and kills him — stoned to death by the very means he used on Abel, which Jubilees reads as the heavenly tablets’ rule of measure for measure. Jubilees gives no month or day, only “the same year” as Adam’s death; placed here the day after by convention.",
+    "source": "Jubilees 4:29–32"
+  },
+  {
     "date": 358905,
     "title": "Enoch’s final year with Methuselah",
     "summary": "Sent back to earth for one last year before his translation, Enoch tells Methuselah to preserve his books of wisdom for later generations, then gathers his children to reveal history’s full course in ten “weeks,” ending in a final judgment and a new heaven.",
@@ -186,10 +198,28 @@
     "source": "Genesis 8:14–9:17"
   },
   {
+    "date": 606789,
+    "title": "Noah’s sons divide the earth by lot",
+    "summary": "Noah gathers his sons and grandsons and, drawing lots from a writing kept in his own bosom, assigns Shem the middle lands around Eden, Sinai and Zion, Ham the lands south of the Gihon, and Japheth the lands north of the Tina river. Genesis 10 lists the same three territories without this ceremony. Jubilees dates it to its own 1569th year since creation, a count that by this point runs well ahead of the Genesis-based chronology this app uses elsewhere; rather than import that number directly, this timeline places the event a decade after the ark lands and well before Babel, without claiming to reproduce Jubilees’ own year count.",
+    "source": "Jubilees 8:1–9:15; Genesis 10:25–32"
+  },
+  {
     "date": 639549,
     "title": "Babel and the scattering of nations",
-    "summary": "Humanity builds a city and a tower in Shinar. God confuses their language and scatters them. Genesis gives no date. Ussher ties it to the birth of Peleg, in whose days the earth was divided.",
+    "summary": "Men build a city and a tower in Shinar. God confuses their language and scatters them. Genesis gives no date. Ussher ties it to the birth of Peleg, in whose days the earth was divided.",
     "source": "Genesis 11:1–9; 10:25"
+  },
+  {
+    "date": 752025,
+    "title": "Abram burns the house of idols",
+    "summary": "At sixty, Abram secretly burns his father Terah’s house of idols by night. His brother Haran rushes in to save them and is burned to death himself. Jubilees dates this directly from Abram’s own birth year (1936 AM in its own count); because Jubilees’ internal year count diverges from the Genesis-based chronology this app uses by Abraham’s generation, this timeline instead places the event using the 17-year gap Jubilees itself gives before Abram’s declared departure from Haran, counted back from the year this app already uses for God’s call of Abram.",
+    "source": "Jubilees 12:1–14"
+  },
+  {
+    "date": 757667,
+    "title": "Abram watches the stars at the new moon",
+    "summary": "On the first night of the seventh month, Abram stays awake until morning watching the stars to read the year’s rains, then concludes that the sun, moon and stars are entirely in God’s hand and prays to be shown the right path rather than searching the sky for it — a quiet rejection of the astrology his own family practiced. God’s call to leave for the land he will be shown follows immediately after. Placed here, as with the previous entry, by the 2-year gap Jubilees gives before that departure.",
+    "source": "Jubilees 12:16–22"
   },
   {
     "date": 758213,
@@ -210,16 +240,46 @@
     "source": "Genesis 21:1–5"
   },
   {
+    "date": 776424,
+    "title": "Mastema accuses Abraham, and Isaac is bound on the altar",
+    "summary": "A voice in heaven testifies to Abraham’s faithfulness, and Mastema, described as “the prince of the watchers,” tells God that Abraham loves Isaac above all else and urges that Isaac be demanded as a burnt offering to test him. Genesis 22 tells the same binding of Isaac without naming who is behind the test; Jubilees supplies that detail. Not independently dated elsewhere on this timeline, it is placed here by the 50-year gap Jubilees gives after Abraham’s call.",
+    "source": "Jubilees 17:15–18:19; Genesis 22:1–19"
+  },
+  {
     "date": 789153,
     "title": "Jacob and Esau are born",
     "summary": "Twins are born to Isaac and Rebekah when Isaac is 60. Jacob is born holding his brother’s heel.",
     "source": "Genesis 25:20–26"
   },
   {
+    "date": 826294,
+    "title": "Levi is ordained priest in a dream at Bethel",
+    "summary": "Camped at Bethel, Levi dreams he is ordained priest of the Most High, with his sons after him, and wakes to find his father has clothed him in priestly garments. Jacob tithes everything he owns, and Levi is set apart to receive the tithe of the tithe, a law the text says is written on the heavenly tablets. Genesis 28 and 35 both describe Jacob’s visits to Bethel but say nothing of Levi’s priesthood beginning there. Jubilees gives the day of the month (the 14th) but not which month; placed in month 1 by this app’s usual convention for underdated events, in the same year this timeline places Benjamin’s birth below.",
+    "source": "Jubilees 32:1–15"
+  },
+  {
+    "date": 826503,
+    "title": "Benjamin is born; Rachel dies",
+    "summary": "Rachel dies giving birth to her second son on the way to Ephrath. She names him Ben-oni, “son of my sorrow”; Jacob renames him Benjamin and sets up a pillar on her grave. Genesis 35:16–20 tells the same story without the date Jubilees supplies. This timeline places it using the 6-year gap Jubilees gives before Joseph is sold, counted back from the year this app already uses for that sale.",
+    "source": "Jubilees 32:33–34; Genesis 35:16–20"
+  },
+  {
+    "date": 828101,
+    "title": "Jacob defeats the Amorite kings",
+    "summary": "Seven Amorite kings ambush Jacob’s sons as they pasture sheep near Shechem. Jacob marches out with his servants, routs the kings, recovers the flocks, and imposes tribute; the kings serve him until the family goes down to Egypt. Nothing like this battle appears in Genesis. Jubilees dates it to one year before Joseph is sold, which is how this timeline places it.",
+    "source": "Jubilees 34:1–9"
+  },
+  {
     "date": 828465,
     "title": "Joseph is sold into Egypt",
     "summary": "At 17, Joseph is sold by his brothers to traders and taken to Egypt.",
     "source": "Genesis 37:2, 25–28"
+  },
+  {
+    "date": 828656,
+    "title": "The Day of Atonement is instituted",
+    "summary": "Jacob’s sons slaughter a kid and dip Joseph’s coat in its blood to convince their father that a wild animal killed him. Jubilees makes the tenth of the seventh month — the day that news reaches Jacob — the origin of the Day of Atonement: Israel is to afflict itself and offer a young goat on this date every year after, in memory of the grief Joseph’s brothers caused their father. Leviticus 16 and 23:26–32 give the Day of Atonement’s law without this origin story.",
+    "source": "Jubilees 34:12–19; Leviticus 16; 23:26–32"
   },
   {
     "date": 833197,

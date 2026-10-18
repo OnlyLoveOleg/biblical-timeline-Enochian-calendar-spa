@@ -67,6 +67,11 @@ function onClick(e) {
         The BC/AD year shown alongside the header comes from the same chronology: creation falls in 4004 BC, with no
         year zero, so the year right after 1 BC is AD 1. It moves with whichever event is focused.
       </p>
+      <p>
+        The line below month and day is the year in the Book of Jubilees’ own reckoning: a jubilee of 49 years, made
+        of seven “weeks” of seven years each. Jubilees 11:14 dates Abram’s birth, Anno Mundi 1876, to the seventh
+        year of the second week of the 39th jubilee, which is how this app’s count is checked.
+      </p>
 
       <h3>What to keep in mind</h3>
       <p>

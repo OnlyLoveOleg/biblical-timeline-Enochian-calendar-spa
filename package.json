@@ -23,8 +23,5 @@
   "engines": {
     "node": "^22.18.0 || >=24.12.0"
   },
-  "description": "Interactive Bible timeline with dates counted in the 364-day Enochian calendar (Vue 3 + Vite)",
-  "allowScripts": {
-    "fsevents@2.3.3": true
-  }
+  "description": "Interactive Bible timeline with dates counted in the 364-day Enochian calendar (Vue 3 + Vite)"
 }

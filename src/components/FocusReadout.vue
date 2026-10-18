@@ -1,6 +1,6 @@
 <script setup>
 import YearDial from '@/components/YearDial.vue'
-import { formatCount, formatHistoricalYear } from '@/lib/enochCalendar'
+import { formatCount, formatHistoricalYear, formatJubilee } from '@/lib/enochCalendar'
 
 defineProps({
   event: { type: Object, required: true },
@@ -18,6 +18,7 @@ defineProps({
         <span class="era">({{ formatHistoricalYear(event.cal.year) }})</span>
       </p>
       <p class="detail">Month {{ event.cal.month }}, day {{ event.cal.dayOfMonth }}</p>
+      <p class="jubilee">{{ formatJubilee(event.cal.year) }}</p>
       <p class="count">Day {{ formatCount(event.cal.day) }} from creation</p>
     </div>
   </section>
@@ -54,6 +55,12 @@ defineProps({
 .detail {
   margin-top: 0.15rem;
   font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+.jubilee {
+  margin-top: 0.1rem;
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
   font-variant-numeric: tabular-nums;
 }
 .count {
